@@ -27,3 +27,13 @@ print(4 not in a)
 print(4 in a)
 c=int(input('2'))
 print(c in a)
+
+
+a='apple'
+b=set(a)
+print(b)
+print('a' in b)
+
+
+a1={'12':'34','56':'78'}
+print(a1['12'])
